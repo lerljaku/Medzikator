@@ -69,20 +69,36 @@ namespace Pocitadlo_landu
         }
 
         //------------------------------ STACK RESOLVER ---------------------------------------
+        /*
+         * Stack resolver ma "stack" na ktery bude davat ability z textboxu. Chovani UI je poreseny, 
+         */
+        //stack
         private string[] Stack = new string[0];
+        //velikost pole
         private int stackSize = 0;
+        //pocet prvku v poli
         private int numberOfTriggers = 0;
 
+        /// <summary>
+        /// Metoda ktera odebere ze abilitu ze stacku tj. z pole Stack odebere posledni prvek
+        /// </summary>
         private void ResolveAbility()
         {
             // to implement
         }
 
+        /// <summary>
+        /// metoda ktera prida newTrigger na stack. tzn. prida na konec pole newTrigger
+        /// </summary>
+        /// <param name="newTrigger"></param>
         private void PutNewTriggerOnStack(string newTrigger)
         {
             // to implement
         }
 
+        /// <summary>
+        /// vyprazdni stack tj. odebere vsechny prvky z pole 
+        /// </summary>
         private void ResolveAllOnStack()
         {
             // to implement
